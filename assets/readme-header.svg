@@ -1,0 +1,18 @@
+<svg fill="none" viewBox="0 0 1200 280" width="1200" height="280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="rainbow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B86FF"><animate attributeName="stop-color" values="#6B86FF;#DFFF45;#FF795E;#6B86FF" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset=".48" stop-color="#DFFF45"><animate attributeName="stop-color" values="#DFFF45;#FF795E;#6B86FF;#DFFF45" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#FF795E"><animate attributeName="stop-color" values="#FF795E;#6B86FF;#DFFF45;#FF795E" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="40"/></filter>
+  </defs>
+  <rect width="1200" height="280" rx="18" fill="#101216"/>
+  <circle cx="180" cy="82" r="160" fill="#6B86FF" filter="url(#blur)" opacity=".55"><animate attributeName="cx" values="180;310;180" dur="6s" repeatCount="indefinite"/></circle>
+  <circle cx="1030" cy="240" r="180" fill="#DFFF45" filter="url(#blur)" opacity=".48"><animate attributeName="cx" values="1030;890;1030" dur="6s" repeatCount="indefinite"/></circle>
+  <path d="M35 36h1130v208H35z" stroke="url(#rainbow)" stroke-width="2"/>
+  <text x="72" y="107" fill="#F4F0E6" font-family="Arial,Helvetica,sans-serif" font-size="22" letter-spacing="6">INTERACTIVE PORTFOLIO TEMPLATE</text>
+  <text x="67" y="190" fill="url(#rainbow)" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-5">ATELIER PROTOCOL</text>
+  <text x="76" y="228" fill="#F4F0E6" font-family="monospace" font-size="14">REACT · GSAP · THREE.JS · VITE</text>
+  <path d="M1102 45v45h-45" stroke="#F4F0E6" stroke-width="3"><animateTransform attributeName="transform" type="rotate" from="0 1080 67" to="360 1080 67" dur="10s" repeatCount="indefinite"/></path>
+</svg>

@@ -1,0 +1,41 @@
+export const portfolio = {
+  owner: 'Aria Noor',
+  role: 'Interaction designer & creative developer',
+  email: 'hello@arianoor.studio',
+  location: 'Lahore / wherever the work needs to be',
+  projects: [
+    {
+      number: '01',
+      name: 'Lumen Index',
+      type: 'Identity system / digital archive',
+      note: 'A kinetic index that gives a sprawling image collection a sense of pulse.',
+      year: '2026',
+      color: '#dfff45',
+      url: 'https://example.com',
+    },
+    {
+      number: '02',
+      name: 'Tide, In Revision',
+      type: 'Editorial tool / experiment',
+      note: 'A reading environment that shifts with the pace of the visitor.',
+      year: '2025',
+      color: '#6b86ff',
+      url: 'https://example.com',
+    },
+    {
+      number: '03',
+      name: 'Common Thread',
+      type: 'Campaign / web experience',
+      note: 'An optimistic launch site built around everyday acts of repair.',
+      year: '2024',
+      color: '#ff795e',
+      url: 'https://example.com',
+    },
+  ],
+  capabilities: [
+    ['01', 'Concept direction', 'Stories, systems, and a point of view before the pixels.'],
+    ['02', 'Visual worlds', 'Distinct art direction built to hold attention and age well.'],
+    ['03', 'Interaction', 'Small gestures, responsive motion, and interfaces that feel alive.'],
+    ['04', 'Build & handoff', 'React, GSAP, WebGL, and documentation teams actually use.'],
+  ],
+}
